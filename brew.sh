@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+# Install Homebrew
+https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew install caskroom/cask/brew-cask
+
 # Install command-line tools using Homebrew.
 
 # Ask for the administrator password upfront.
@@ -101,5 +105,7 @@ brew install node
 # Install io.js
 brew install iojs
 
+# Install brew-cask
+brew install caskroom/cask/brew-cask
 # Remove outdated versions from the cellar.
 brew cleanup
